@@ -1,0 +1,163 @@
+body{
+	text-align:left;
+}
+#kotak{
+	width:1000px;	
+	height:750px;
+	margin:0px auto;
+}
+#kepala{
+	width:1000px;	
+	height:150px;
+	background:white;
+	border-bottom: 1px solid orchid;
+}
+#badan{
+	width:1000px;	
+	height:1250px;
+	background:white;
+	float:left;
+	border-bottom: 1px solid orchid;
+}
+#sidebar{
+	width:1000px;	
+	height:1250px;
+	background:white;
+	float:left;
+	border-bottom: 1px solid orchid;
+}
+#kaki{
+	width:1000px;	
+	height:100px;
+	background:white;
+	float:left;
+}
+
+#place-nav
+{
+   width:960px;
+   height:10px;
+   margin:20px 20 20 20;
+}
+
+#nav
+{
+   height:35px;
+}
+
+#nav li
+{
+   height:35px;
+   float:left;
+   display:inline;
+   margin:0 5px;
+   position:relative;
+   font-family: Arial Narrow;
+   z-index:1000;
+}
+
+#nav li a
+{
+   float:left;
+   display:inline;
+   height:25px;
+   padding:10px 8px 0 8px;
+   font-size:12px;
+   color:purple;
+   font-weight:bold;
+   text-transform:uppercase;
+   text-shadow:0 0 3px pink;
+}
+
+#nav li:hover a
+{
+   text-decoration:none;
+   color:plum;
+}
+
+#place-nav ul ul
+{
+   position:absolute;
+   z-index:1200;
+   display:none;
+   width:180px;
+   margin: 0;
+   top: 35px;
+   left: 0;
+   background:lavender;
+   padding:0 0 2 px 0;
+}
+
+#place-nav ul li ul li
+{
+   display: inline;
+   float: left;
+   width: 180px;
+   height: auto;
+   border-bottom: 1px solid orchid;
+   float: left;
+   padding: 0;
+   position: relative;
+   margin: 0;
+}
+
+#place-nav ul li ul li ul li
+{
+   display: inline;
+   float: left;
+   padding: 0;
+}
+
+#place-nav #nav li:hover ul li a, #place-nav #nav li:hover ul li a:link, #place-nav #nav li:hover ul li a:visited
+{
+   color:purple;
+   font-size:15px;
+   width:170px;
+   height:auto;
+   text-transform:none;
+   border:none;
+   background: none;
+   padding:9px 8px;
+   text-shadow: none;
+   margin: 0;
+   font-weight:lighter;
+}
+
+#place-nav #nav li:hover ul li a:hover, #place-nav #nav li ul li a:hover
+{
+   text-decoration:none;
+   color:purple;
+   background:white;
+}
+
+div#place-nav li:hover ul ul, div#place-nav li li:hover ul ul
+{
+   display: none;
+}
+
+div#place-nav li:hover ul, div#place-nav li li:hover ul
+{
+   display: block;
+}
+
+p{
+   margin: 20px 150px;
+   font-family: Arial Narrow;
+}
+
+ol li {
+   margin: 0px 125px;
+   font-family: Arial Narrow;
+}
+
+ol li ol li
+{
+   margin: 0px 10px;
+   font-family: Arial Narrow;
+}
+
+div>img
+{
+   margin: 0px 150px;
+}
+
